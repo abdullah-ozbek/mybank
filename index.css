@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #b6b1d1 ;
+}
+
+.container {
+    display: table;
+    margin: 2rem;
+}
+.einlog {
+    margin: 2rem;
+}
+button{
+    height: 1.9rem;
+    width: 7rem;
+    background-color: #9cb9c5 ;
+    border-color: #5d91af;
+    border-width: 2px;
+}
+
+table, th, td {
+    background-color: #b8d3dd ;
+    margin: 2rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    width: 20rem;
+}
+
+select {
+    background-color: #576370;
+    display: inline-block;
+    padding: 0 1rem;
+    margin: 2rem;
+    height: 1.8rem;
+    white-space: nowrap;
+    line-height: 1.85rem;
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid solid none solid;
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to bottom, #f9f9f9, #d8d8d8)
+}
+nav ul {
+    margin: 0;
+    padding: 1rem 0 0 3rem;
+    list-style-type: none;
+    list-style: none;
+    height: 1.9rem;
+    border: 1px solid #999999;
+    background-color: #3fa0ad;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 1rem;
+    margin: 0;
+    height: 1.8rem;
+    white-space: nowrap;
+    line-height: 1.85rem;
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid solid none solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to bottom, #f9f9f9, #d8d8d8)
+}
+
+nav ul li:hover {
+    background-color: #eeb0b0;
+    background-image: linear-gradient(to bottom, #857ec2, #883838)
+}
+
+.form1{
+    margin:  2rem;
+}
+.form1 div{
+        padding: 0.5rem;
+}
+.myButton {
+    margin-left: 2rem;
+}
